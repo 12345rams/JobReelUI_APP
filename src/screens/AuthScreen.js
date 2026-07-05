@@ -17,9 +17,9 @@ export default function AuthScreen({ lang, changeLang, onLoginSuccess }) {
 
   // Configure Google Login
   const [request, response, promptAsync] = Google.useAuthRequest({
-    webClientId: '621785971242-e32q5s919on4vgdvhst72jbckfoskv2l.apps.googleusercontent.com',
-    androidClientId: '621785971242-e32q5s919on4vgdvhst72jbckfoskv2l.apps.googleusercontent.com',
-    iosClientId: '621785971242-e32q5s919on4vgdvhst72jbckfoskv2l.apps.googleusercontent.com',
+    webClientId: process.env.EXPO_PUBLIC_GOOGLE_CLIENT_ID,
+    androidClientId: process.env.EXPO_PUBLIC_GOOGLE_CLIENT_ID,
+    iosClientId: process.env.EXPO_PUBLIC_GOOGLE_CLIENT_ID,
   });
 
   React.useEffect(() => {
