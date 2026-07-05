@@ -28,10 +28,11 @@ This is the mobile frontend application, built using React Native and Expo.
    npm start
    ```
 
-4. **Run on a device/emulator:**
-   - Press `a` to open on Android.
-   - Press `i` to open on iOS.
-   - Scan the QR code shown in the terminal with your physical device using the Expo Go app.
+4. **View the UI (on a Laptop or Phone):**
+   - **Web Browser (Fastest for laptop):** Press `w` in the terminal, or go to `http://localhost:8081` in your browser.
+   - **Android Emulator (Laptop):** If you have Android Studio installed and an emulator running, press `a` in the terminal.
+   - **Physical Phone (Recommended):** Download the **Expo Go** app on your iPhone or Android. Scan the QR code shown in the terminal.
+   - **iOS Simulator (Mac only):** Press `i` to open on iOS Simulator.
 
 ## Project Structure
 
